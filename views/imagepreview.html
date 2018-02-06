@@ -1,0 +1,19 @@
+<div class="wrapper">
+   <my-dir></my-dir>
+    <div id='content'>
+   <div class="col-md-6 col-md-offset-3">
+       <img src="{{imageSrc}}" />
+     <form>
+       <h4>image upload</h4>
+        <div class="col-md-6" >
+        <input type="file" name="file-upload-field" id="uploadedimage" class="file-upload-field"  ng-model-instant onchange="angular.element(this).scope().imageUploadFunc(event)" >
+                          </div>
+                          <div class="col-md-6" >
+                                      
+   <img src="" id="controller" height="200" alt="Image preview...">
+                          </div>
+      </form>
+      
+   </div>
+   </div>
+   </div>

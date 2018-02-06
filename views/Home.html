@@ -1,0 +1,94 @@
+<div class="wrapper">
+		<my-dir></my-dir>
+ 			<div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+				<div class="jumbotron text-center">
+					<h1>DashBoard</h1>      
+					<p>You People will get soon....!!!</p>
+				  </div>
+                
+
+                <div class="line"></div>
+				<div class="col-md-6" >
+					<input type="file" name="file-upload-field" id="uploadedimage" class="file-upload-field"  ng-model-instant onchange="angular.element(this).scope().imageUploadFunc(event)" >
+				</div>
+
+				
+				
+
+                <div class="col-md-6" ng-init="getCountriesData()">
+								<div class="form-group">
+								<label class="formLabel">Select County</label>
+								  <select ng-options="x.countyName for x in countriesList " ng-model="cont" ng-change="select()" class="form-control" id="sel1" value="{{country.id}}">
+
+				<option ng-repeat="country in countriesList | orderBy:'countyName'" value="{{country.id}}">
+				{{country.countyName}} 
+				</option>
+				</select>
+								</div>
+							</div>
+							<div>
+								<h3>Filter Data working Here..!!</h3>
+								<p ng-repeat="x in numberarray">
+									The value is --> {{x.value | numberfilter}}<br></p>
+							</div>
+                
+            </div>
+        </div>
+
+
+
+
+<!--  <div>
+	<div class="row">
+		<div class="col-md-6 ">
+			<h2>Home page</h2>
+			
+			<div ng-init="getCountriesData()">	
+				<form>
+				<div class="form-group" >
+				<label for="sel1">Select list (select one):</label>
+				<select ng-options="x.countyName for x in countriesList " ng-model="cont" ng-change="select()" class="form-control" id="sel1" value="{{country.id}}">
+
+				<option ng-repeat="country in countriesList | orderBy:'countyName'" value="{{country.id}}">
+				{{country.countyName}} 
+				</option>
+				</select>
+				<br>
+				<select class="form-control" ng-disabled="!cont" ng-model="constitution" ng-change="select1()" ng-options="y.constitutionName for y in aaa"></select>
+				</div>
+				<br>
+				<select class="form-control" ng-disabled="!constitution" ng-model="wards" ng-options="b.wardName for b in b.wards"></select>
+				</form>
+			</div>
+			
+		</div>
+		
+			
+</div> -->
+	
+	 
+
+	
+	

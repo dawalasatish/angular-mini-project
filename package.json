@@ -1,0 +1,16 @@
+{
+  "name": "angualrjs-project",
+  "version": "1.0.0",
+  "description": "To learn project",
+  "main": "main.js",
+  "scripts": {
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "lite-server": "^2.3.0"
+  }
+}

@@ -1,0 +1,106 @@
+[
+    {
+    "role":"Sr Java Developer",
+    "companylogo" : "images/ojas.jpg",
+    "contactno":"8106105082",
+    "vendorname":"OJAS",
+    "contactemail":"hr@ojas-it.com",
+    "experience":"3 year's",
+    "joinwithin":"10-15 days",
+    "location":"Hyderabad",
+    "keyskills":"Java,J2ee,JDBC,Spring Boot,Advanced Java"
+    },
+    {
+    "role":"UI Developer",
+    "companylogo" : "images/focus.jpg",
+    "vendorname":"Focus Infotech",
+    "contactno":"9533485626",
+    "contactemail":"hr@focusinfotech.com",
+    "experience":"2 year's",
+    "joinwithin":"30-45 days",
+    "location":"Bangalore",
+    "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+    
+    },
+    {
+    "role":"UI Developer",
+    "companylogo" : "images/ojas.jpg",
+    "vendorname":"OJAS",
+    "contactno":"7306528540",
+    "contactemail":"hr@ojas-it.com",
+    "experience":"3 year's",
+    "joinwithin":"10-15 days",
+    "location":"Hyderabad",
+    "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+    
+    },
+    {
+        "role":"UI Developer",
+        "companylogo" : "images/ojas.jpg",
+        "vendorname":"OJAS",
+        "contactno":"7306528540",
+        "contactemail":"hr@ojas-it.com",
+        "experience":"3 year's",
+        "joinwithin":"10-15 days",
+        "location":"Hyderabad",
+        "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+        
+        },
+        {
+            "role":"UI Developer",
+            "companylogo" : "images/ojas.jpg",
+            "vendorname":"OJAS",
+            "contactno":"7306528540",
+            "contactemail":"hr@ojas-it.com",
+            "experience":"3 year's",
+            "joinwithin":"10-15 days",
+            "location":"Hyderabad",
+            "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+            
+            },{
+                "role":"UI Developer",
+                "companylogo" : "images/ojas.jpg",
+                "vendorname":"OJAS",
+                "contactno":"7306528540",
+                "contactemail":"hr@ojas-it.com",
+                "experience":"3 year's",
+                "joinwithin":"10-15 days",
+                "location":"Hyderabad",
+                "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+                
+                },
+                {
+                    "role":"UI Developer",
+                    "companylogo" : "images/ojas.jpg",
+                    "vendorname":"OJAS",
+                    "contactno":"7306528540",
+                    "contactemail":"hr@ojas-it.com",
+                    "experience":"3 year's",
+                    "joinwithin":"10-15 days",
+                    "location":"Hyderabad",
+                    "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+                    
+                    },{
+                        "role":"UI Developer",
+                        "companylogo" : "images/ojas.jpg",
+                        "vendorname":"OJAS",
+                        "contactno":"7306528540",
+                        "contactemail":"hr@ojas-it.com",
+                        "experience":"3 year's",
+                        "joinwithin":"10-15 days",
+                        "location":"Hyderabad",
+                        "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+                        
+                        },{
+                            "role":"UI Developer",
+                            "companylogo" : "images/ojas.jpg",
+                            "vendorname":"OJAS",
+                            "contactno":"7306528540",
+                            "contactemail":"hr@ojas-it.com",
+                            "experience":"3 year's",
+                            "joinwithin":"10-15 days",
+                            "location":"Hyderabad",
+                            "keyskills":"HTML5,CSS3,Javascript,AngularJS,Bootstrap"
+                            
+                            }
+]

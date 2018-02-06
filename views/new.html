@@ -1,0 +1,100 @@
+<div class="wrapper"> 
+	<my-dir></my-dir>
+<div id="content" ng-init="init()">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                                <li><a href="">Page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <h2>Signup </h2>
+                
+
+                <div class="line"></div>
+							<div class="col-md-3" >
+								<div class="form-group">
+								<label class="formLabel">Select Organization</label>
+								  <select id="org" ng-model="detailsObj.orgId"  class="form-control ">
+									<option value="" disabled selected>Select</option>
+									<option ng-repeat="org in organisationList " value="{{org.id}}">{{org.name}}</option>
+								  </select>
+								</div>
+							</div>
+                			<div class="col-md-3" >
+								<div class="form-group">
+								<label class="formLabel">Select County</label>
+								  <select id="county" ng-model="county" ng-change="orgChange(county)" class="form-control " ng-options="x.countyName for x in countriesList">
+									
+									
+								  </select>
+								</div>
+							</div>
+							<div class="col-md-3" ng-init="getCountriesData()">
+								<div class="form-group">
+								<label class="formLabel">Select Constituency</label>
+								  
+									<select id="const" ng-model="const" ng-change="orgConst(const)" class="form-control " ng-options="x.constitutionName for x in county.constitutions">
+									
+									
+								  </select>
+								 
+								</div>
+							</div>
+							<div class="col-md-3" ng-init="getCountriesData()">
+								<div class="form-group">
+								<label class="formLabel">Select Ward</label>
+								  <select id="ward" ng-model="ward" ng-change="orgWard(ward)" class="form-control " ng-options="x.wardName for x in const.wards">
+									
+									
+								  </select>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+								  <label for="exampleInputEmail1">National ID</label>
+								  <input ng-model="detailsObj.nationalId" type="number" class="form-control" maxlength="8">
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+								  <label for="exampleInputEmail1">Name of the person</label>
+								  <input ng-model="detailsObj.name" type="text" class="form-control" maxlength="50">
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+								  <label for="exampleInputEmail1">Contact</label>
+								  <input ng-model="detailsObj.contact" type="text" class="form-control" maxlength="50">
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+								  <label for="exampleInputEmail1">Age</label>
+								  <input ng-model="detailsObj.age" type="text" class="form-control" maxlength="50">
+								</div>
+							</div>
+				 <div class="col-md-6" >
+				                <input type="file" name="file-upload-field" id="uploadedimage" class="file-upload-field"  ng-model-instant onchange="angular.element(this).scope().imageUploadFunc(event)" >
+				</div>
+				<div class="pull-right">
+					  <input type="submit" value="Submit"  ng-click="personSignUp()" class="btn btn-primary pull-right">
+				</div>
+                
+    </div>
+</div>
