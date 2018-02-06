@@ -7,8 +7,8 @@ angular.module('App').service('Myservice',function($q,$http){
 		};
 		$http(request).success(function(resp){
 		if(resp.status=="fail"){
-		alert("Session expired")
-		$state.go("login");
+		// alert("Session expired")
+		// $state.go("login");
 		}
 		deferred.resolve(resp);
 
